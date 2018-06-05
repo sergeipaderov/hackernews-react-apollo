@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react'
-// import { graphql } from 'graphql';
 import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
 import { FEED_QUERY } from './LinkList'

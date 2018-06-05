@@ -41,6 +41,8 @@ class LinkList extends Component {
         {isNewPage &&
         <div className='flex ml4 mv3 gray'>
           <div className='pointer mr2' onClick={() => this._previousPage()}>Previous</div>
+          <div className='pointer spec  mr2'>|</div>
+
           <div className='pointer' onClick={() => this._nextPage()}>Next</div>
         </div>
         }
